@@ -1,0 +1,41 @@
+#calculator {
+    border: 1px solid black;
+    width: 260px; 
+}
+
+#display {
+    border: 1px solid black;
+    width: 250px;
+    height: 50px;
+    padding: 0;
+    margin: 5px;
+    text-align: center;
+    font-size: 49px;
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    grid-template-rows: repeat(4, 35px);
+}
+
+#numbers {
+    grid-area: 1 / 1 / 5 / 5;
+    
+       
+}
+#operators {
+    grid-area: 1 / 4 / 5 / 5;
+    
+    
+}
+
+#zeroBtn {
+    width: 120px;
+    
+}
+
+#backBtn {
+    width: 120px;
+    
+}
