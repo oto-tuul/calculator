@@ -183,10 +183,6 @@ document.querySelector('#resultBtn').addEventListener('click', () => {
     executed = false;
 });
 
-document.querySelector('#numbers').addEventListener('click', () => {
-
-});
-
 document.querySelector('#oneBtn').addEventListener('click', () => {
     emptyDisplay ();
     displayValue += '1';
