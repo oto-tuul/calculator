@@ -1,2 +1,3 @@
 # calculator
-A calculator app for Odin Project
+A calculator webapp for Odin Project
+Live demo: https://oto-tuul.github.io/calculator/
